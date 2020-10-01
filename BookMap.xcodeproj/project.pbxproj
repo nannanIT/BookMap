@@ -17,6 +17,8 @@
 		3C5A871A2524DA7E00810CCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A87192524DA7E00810CCF /* main.m */; };
 		3C5A87242524DA7E00810CCF /* BookMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A87232524DA7E00810CCF /* BookMapTests.m */; };
 		3C5A872F2524DA7E00810CCF /* BookMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A872E2524DA7E00810CCF /* BookMapUITests.m */; };
+		E8FC003E25257F2700B72328 /* BMAVCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC003D25257F2700B72328 /* BMAVCapturer.m */; };
+		E8FC004D252580A300B72328 /* BMAVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC004C252580A300B72328 /* BMAVUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		3C5A872A2524DA7E00810CCF /* BookMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5A872E2524DA7E00810CCF /* BookMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMapUITests.m; sourceTree = "<group>"; };
 		3C5A87302524DA7E00810CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8FC003C25257F2700B72328 /* BMAVCapturer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAVCapturer.h; sourceTree = "<group>"; };
+		E8FC003D25257F2700B72328 /* BMAVCapturer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAVCapturer.m; sourceTree = "<group>"; };
+		E8FC004B252580A300B72328 /* BMAVUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAVUtils.h; sourceTree = "<group>"; };
+		E8FC004C252580A300B72328 /* BMAVUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAVUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 				3C5A870B2524DA7900810CCF /* FirstViewController.m */,
 				3C5A870D2524DA7900810CCF /* SecondViewController.h */,
 				3C5A870E2524DA7900810CCF /* SecondViewController.m */,
+				E8FC003B25257ED200B72328 /* AV */,
 				3C5A87102524DA7900810CCF /* Main.storyboard */,
 				3C5A87132524DA7E00810CCF /* Assets.xcassets */,
 				3C5A87152524DA7E00810CCF /* LaunchScreen.storyboard */,
@@ -140,6 +147,17 @@
 				3C5A87302524DA7E00810CCF /* Info.plist */,
 			);
 			path = BookMapUITests;
+			sourceTree = "<group>";
+		};
+		E8FC003B25257ED200B72328 /* AV */ = {
+			isa = PBXGroup;
+			children = (
+				E8FC003C25257F2700B72328 /* BMAVCapturer.h */,
+				E8FC003D25257F2700B72328 /* BMAVCapturer.m */,
+				E8FC004B252580A300B72328 /* BMAVUtils.h */,
+				E8FC004C252580A300B72328 /* BMAVUtils.m */,
+			);
+			path = AV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C5A871A2524DA7E00810CCF /* main.m in Sources */,
+				E8FC003E25257F2700B72328 /* BMAVCapturer.m in Sources */,
 				3C5A870F2524DA7900810CCF /* SecondViewController.m in Sources */,
 				3C5A87062524DA7900810CCF /* AppDelegate.m in Sources */,
 				3C5A870C2524DA7900810CCF /* FirstViewController.m in Sources */,
+				E8FC004D252580A300B72328 /* BMAVUtils.m in Sources */,
 				3C5A87092524DA7900810CCF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
